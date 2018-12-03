@@ -10,10 +10,11 @@ namespace TechJobs.Controllers
             Dictionary<string, string> actionChoices = new Dictionary<string, string>();
             actionChoices.Add("search", "Search");
             actionChoices.Add("list", "List");
-            
+             
             ViewBag.actions = actionChoices;
 
             return View();
         }
     }
 }
+ 
